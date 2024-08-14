@@ -1,0 +1,5 @@
+npx nx g @nrwl/angular:host dashboard
+npx nx g @nrwl/angular:remote login --host=dashboard
+npx nx g @nrwl/angular:lib shared/data-acces-user
+nx run login:serve:development
+nx run dashboard:serve:development
